@@ -1,0 +1,76 @@
+@import url(https://fonts.googleapis.com/css?family=Inconsolata);
+@import url(https://fonts.googleapis.com/css?family=Prompt);
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+ 
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+#colorShadow{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/*a{
+    font-family: "Inconsolata";
+    color: darkgray;
+    text-shadow: 0.5px 0.5px white;
+    
+}*/
+
+.topnav{
+    background-color: lightblue;
+}
+
+#grad1 {
+    background-color: lightskyblue; /* For browsers that do not support gradients */
+    /*background-image: linear-gradient(lightskyblue, white);*/
+    overflow: auto;
+}
+
+
+#grad2 {
+    background-color: lightskyblue; /* For browsers that do not support gradients */
+    /*background-image: linear-gradient(lightskyblue, white);*/
+    overflow: auto;
+    height: 5000px;
+}
+
+td:nth-child(odd){
+    background-color: rgb(224, 224, 224);
+}
+th:nth-child(odd){
+    background-color: rgb(224, 224, 224);
+}
+
+h1{
+    font-family: "Prompt";
+    text-shadow: 0.5px 0.5px white;
+}
+h2{
+    font-family: "Prompt";
+    text-shadow: 0.5px 0.5px white;
+}
+h3{
+    font-family: "Prompt";
+    text-shadow: 0.5px 0.5px white;
+}
+h4{
+    font-family: "Prompt";
+    text-shadow: 0.5px 0.5px darkgray;
+}
+h5{
+    font-family: "Prompt";
+    text-shadow: 0.5px 0.5px darkgrey;
+}
+
+legend{
+    font-family: "Inconsolata";
+    text-shadow: 0.5px 0.5px white;
+}
+
+.button{
+    font-family: "Oswald";
+    background-color: #4CAF50;
+    text-shadow: 0.5px 0.5px white;
+}
